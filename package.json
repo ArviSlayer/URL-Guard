@@ -1,0 +1,15 @@
+{
+  "name": "arvis-url-guard",
+  "version": "1.0.0",
+  "main": "arvis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ArviS#0011",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "request": "^2.88.2"
+  }
+}
+
