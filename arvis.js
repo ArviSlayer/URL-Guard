@@ -23,7 +23,7 @@ client.on('guildUpdate', async (oldGuild, newGuild) => {
                 }).then(audit => audit.entries.first());
                     if (!suclupic.executor || suclupic.executor.id === client.user.id || !newGuild.members.cache.get(suclupic.executor.id).bannable) return;
                             let channel = client.channels.cache.get(config.urllog);
-                                if (channel) channel.send(`@everyone \n ⛔・${suclupic.executor} Adlı Kişi URL'yi Değiştirmeye Çalıştığı İçin Uzaklaştırıldı \n ✔️・URL \`${oldGuild.vanityURLCode}\` Haline Geri Getirildi`)
+                                if (channel) channel.send(`@everyone \n ⛔・${suclupic.executor} Adlı Kişi URL'yi Değiştirmeye Çalıştığı İçin Uzaklaştırıldı \n ✅・URL \`${oldGuild.vanityURLCode}\` Haline Geri Getirildi`)
 
                                     if (!channel) return
                                         newGuild.members.ban(suclupic.executor.id, {
